@@ -1,7 +1,7 @@
 ## Practising with Combination and Permutation by generating samples.
 
 <p align="center">
-  <img src="./combination-permutation/image/sample.png" width="600"/>
+  <img src="./image/sample.png" width="600"/>
 </p>
 
 Check the result: `$ go run .`
