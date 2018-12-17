@@ -1,4 +1,4 @@
-package main
+package hamming_distance
 
 import "fmt"
 
@@ -22,17 +22,4 @@ func hammingCount(spec string, dna string) (int, error) {
 		}
 	}
 	return count, nil
-}
-
-func main() {
-	_, err := hammingCount("GAGCCTACTAACGGG", "CATCGTAATGACGGCCT")
-	if err != nil {
-		fmt.Println(err)
-	}
-
-	result, err := hammingCount("GAGCCTACTAACGGGAT", "CATCGTAATGACGGCCT")
-	if err != nil {
-		fmt.Println(err)
-	}
-	fmt.Printf("diff = %d ", result)
 }

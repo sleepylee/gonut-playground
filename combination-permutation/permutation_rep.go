@@ -1,5 +1,4 @@
-package main
-
+package permutation
 
 func genPermutationRep(alphabet string, length int) <-chan string {
 	c := make(chan string)
